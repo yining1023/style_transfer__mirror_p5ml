@@ -5,7 +5,6 @@ let outputImgContainer;
 let video;
 let modelReady = false;
 let startPredict = false;
-let nextReady = true;
 
 function setup() {
   noCanvas();
