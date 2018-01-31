@@ -1,0 +1,29 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Style Transfer Mirror</title>
+
+  <script src="libraries/p5.min.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5ml.min.js"></script>
+
+  <style>
+    img {
+      width: 600px;
+      height: 600px;
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+    }
+  </style>
+</head>
+
+<script src="sketch.js"></script>
+
+<body>
+  <h1>Style Transfer Mirror</h1>
+  <div id="input-container"></div>
+  <div id="output-container"></div>
+  <button onClick="togglePredicting()">Start</button>
+</body>
+
+</html>
